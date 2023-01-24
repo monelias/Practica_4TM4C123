@@ -7,11 +7,11 @@
     {
     "name": "(gdb) Launch", "type": "cppdbg",
     "request": "launch",
-    "miDebuggerPath": "C:\\Users\\lance\\Desktop\\santana\\arm-gnu-toolchain-11.3.rel1-mingw-w64-i686-arm-none-eabi\\bin\\arm-none-eabi-gdb.exe",
+    "miDebuggerPath": "E:\\MSYS\\Micro\\10 2021.10\\bin\\arm-none-eabi-gdb.exe",
     "targetArchitecture": "arm",
     "filterStderr": true,
     "serverStarted": "Info\\ :\\ [\\w\\d\\.]*:\\ hardware",
-    "program": "C:\\Users\\lance\\Desktop\\santana\\Practica_3TM4C123\\gcc\\main.axf",
+    "program": "E:\\MSYS\\micro\\practicas\\Practica_4TM4C123\\gcc\\main.axf",
     "args": [],
     "stopAtEntry": false,
     "cwd": "${workspaceRoot}",
@@ -20,7 +20,7 @@
     "MIMode": "gdb",
     "setupCommands": [
     { "text" : "target extended-remote :3333"},
-    { "text" : "load C:/Users/lance/Desktop/santana/Practica_3TM4C123/gcc/main.axf"}
+    { "text" : "load E:/MSYS/micro/practicas/Practica_4TM4C123/gcc/main.axf"}
     ]
     }
     ]

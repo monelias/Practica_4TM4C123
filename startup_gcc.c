@@ -249,7 +249,7 @@ ResetISR(void)
     // Copy the data segment initializers from flash to SRAM.
     //
     pui32Src = &_etext;
-    for(pui32Dest = &_data; pui32Dest < &_edata; )
+   for(pui32Dest = &_data; pui32Dest < &_edata; )
     {
         *pui32Dest++ = *pui32Src++;
     }

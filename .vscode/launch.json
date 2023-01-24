@@ -7,11 +7,11 @@
     {
     "name": "(gdb) Launch", "type": "cppdbg",
     "request": "launch",
-    "miDebuggerPath": "C:\\Users\\Ravenelco\\Documents\\toolchains\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gdb.exe",
+    "miDebuggerPath": "E:\\MSYS\\Micro\\10 2021.10\\bin\\arm-none-eabi-gdb.exe",
     "targetArchitecture": "arm",
     "filterStderr": true,
     "serverStarted": "Info\\ :\\ [\\w\\d\\.]*:\\ hardware",
-    "program": "C:\\Users\\Ravenelco\\Documents\\tiva-c\\boards\\ek-tm4c123gxl\\project0\\gcc\\project0.axf",
+    "program": "E:\\MSYS\\micro\\practicas\\Practica_4TM4C123\\gcc\\main.axf",
     "args": [],
     "stopAtEntry": false,
     "cwd": "${workspaceRoot}",
@@ -20,7 +20,7 @@
     "MIMode": "gdb",
     "setupCommands": [
     { "text" : "target extended-remote :3333"},
-    { "text" : "load C:/Users/Ravenelco/Documents/tiva-c/boards/ek-tm4c123gxl/project0/gcc/project0.axf"}
+    { "text" : "load E:/MSYS/micro/practicas/Practica_4TM4C123/gcc/main.axf"}
     ]
     }
     ]
