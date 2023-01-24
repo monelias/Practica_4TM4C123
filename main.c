@@ -1,18 +1,11 @@
 #include "lib/include.h"
-/*La configuración del ADC se hizo en el archivo del UART.c ya que 
-me marcaba un error al crear una nueva librería :(( */
+
 int main(void)
 {
 
     char terminator = 'A';
     uint16_t Result[6];
-    //float valor;
-    //float valor1;
-    //float valor2;
-    //float valor3;
-    //float valor4;
-    //float valor5;
-    //int i = 0; //Para los ciclos for
+   
     char c = 0;
     Configurar_PLL(_40MHZ);      //Confiuracion de velocidad de reloj a 40 MHz
     Configurar_ADC();

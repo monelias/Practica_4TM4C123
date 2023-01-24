@@ -1,4 +1,4 @@
-gcc/GPIO.o: GPIO.c lib/include.h \
+gcc/ADC.o: ADC.c lib/include.h \
  e:\msys\micro\10\ 2021.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  e:\msys\micro\10\ 2021.10\arm-none-eabi\include\stdint.h \
  e:\msys\micro\10\ 2021.10\arm-none-eabi\include\machine\_default_types.h \
